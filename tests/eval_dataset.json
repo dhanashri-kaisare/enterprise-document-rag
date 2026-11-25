@@ -1,0 +1,177 @@
+[
+  {
+    "id": "TC01",
+    "category": "direct_fact",
+    "question": "How many days of paid leave do employees receive per year?",
+    "expected_answer": "Employees receive 18 days of paid leave per year.",
+    "answerable": true
+  },
+  {
+    "id": "TC02",
+    "category": "paraphrase",
+    "question": "What is the annual paid vacation allowance for staff?",
+    "expected_answer": "Employees receive 18 days of paid leave per year.",
+    "answerable": true
+  },
+  {
+    "id": "TC03",
+    "category": "paraphrase",
+    "question": "How many paid time off days am I entitled to annually?",
+    "expected_answer": "Employees receive 18 days of paid leave per year.",
+    "answerable": true
+  },
+  {
+    "id": "TC04",
+    "category": "direct_fact",
+    "question": "What must employees do before taking planned leave?",
+    "expected_answer": "Employees must inform their manager before taking planned leave.",
+    "answerable": true
+  },
+  {
+    "id": "TC05",
+    "category": "paraphrase",
+    "question": "Do I need to notify anyone prior to going on a scheduled vacation?",
+    "expected_answer": "Yes, employees must inform their manager before taking planned leave.",
+    "answerable": true
+  },
+  {
+    "id": "TC06",
+    "category": "direct_fact",
+    "question": "What is required for work-from-home requests?",
+    "expected_answer": "Work-from-home requests require manager approval.",
+    "answerable": true
+  },
+  {
+    "id": "TC07",
+    "category": "paraphrase",
+    "question": "Can I work remotely without asking my manager?",
+    "expected_answer": "No, work-from-home requests require manager approval.",
+    "answerable": true
+  },
+  {
+    "id": "TC08",
+    "category": "paraphrase",
+    "question": "Who approves remote work requests?",
+    "expected_answer": "Manager approval is required for work-from-home requests.",
+    "answerable": true
+  },
+  {
+    "id": "TC09",
+    "category": "direct_fact",
+    "question": "Who receives health insurance from the company?",
+    "expected_answer": "The company provides health insurance to all full-time employees.",
+    "answerable": true
+  },
+  {
+    "id": "TC10",
+    "category": "paraphrase",
+    "question": "Are full-time staff covered under company medical insurance?",
+    "expected_answer": "Yes, the company provides health insurance to all full-time employees.",
+    "answerable": true
+  },
+  {
+    "id": "TC11",
+    "category": "nuance_check",
+    "question": "Does the policy state that interns or part-time employees get health insurance?",
+    "expected_answer": "The policy only states that the company provides health insurance to all full-time employees; it does not mention interns or part-time employees.",
+    "answerable": true
+  },
+  {
+    "id": "TC12",
+    "category": "multi_fact",
+    "question": "Summarize all rules related to leave and remote work in the company policy.",
+    "expected_answer": "Employees receive 18 days of paid leave per year, must inform their manager before taking planned leave, and need manager approval for work-from-home requests.",
+    "answerable": true
+  },
+  {
+    "id": "TC13",
+    "category": "multi_fact",
+    "question": "What benefits and leave days are provided to full-time employees?",
+    "expected_answer": "Employees receive 18 days of paid leave per year and full-time employees are provided health insurance.",
+    "answerable": true
+  },
+  {
+    "id": "TC14",
+    "category": "constraint_check",
+    "question": "Is manager approval needed for both planned leave and work-from-home?",
+    "expected_answer": "Employees must inform their manager before taking planned leave, and work-from-home requests require manager approval.",
+    "answerable": true
+  },
+  {
+    "id": "TC15",
+    "category": "numerical_check",
+    "question": "Do employees get 20 days of paid leave per year?",
+    "expected_answer": "No, employees receive 18 days of paid leave per year.",
+    "answerable": true
+  },
+  {
+    "id": "TC16",
+    "category": "unanswerable",
+    "question": "How many days of sick leave do employees receive per year?",
+    "expected_answer": "The provided documents do not mention sick leave.",
+    "answerable": false
+  },
+  {
+    "id": "TC17",
+    "category": "unanswerable",
+    "question": "Can unused paid leave days be carried forward to the next year?",
+    "expected_answer": "The provided documents do not mention whether unused paid leave can be carried forward.",
+    "answerable": false
+  },
+  {
+    "id": "TC18",
+    "category": "unanswerable",
+    "question": "What is the company's maternity and paternity leave policy?",
+    "expected_answer": "The provided documents do not contain information about maternity or paternity leave.",
+    "answerable": false
+  },
+  {
+    "id": "TC19",
+    "category": "unanswerable",
+    "question": "What is the company's annual revenue?",
+    "expected_answer": "The provided documents do not mention the company's annual revenue.",
+    "answerable": false
+  },
+  {
+    "id": "TC20",
+    "category": "unanswerable",
+    "question": "How many days in advance must planned leave be informed to the manager?",
+    "expected_answer": "The policy states employees must inform their manager before taking planned leave, but does not specify an exact number of days in advance.",
+    "answerable": false
+  },
+  {
+    "id": "TC21",
+    "category": "unanswerable",
+    "question": "Does the health insurance cover dental and vision expenses?",
+    "expected_answer": "The provided documents do not specify whether dental or vision expenses are covered.",
+    "answerable": false
+  },
+  {
+    "id": "TC22",
+    "category": "unanswerable",
+    "question": "What is the maximum number of work-from-home days allowed per month?",
+    "expected_answer": "The provided documents do not specify a monthly limit on work-from-home days.",
+    "answerable": false
+  },
+  {
+    "id": "TC23",
+    "category": "unanswerable",
+    "question": "What are the official office working hours?",
+    "expected_answer": "The provided documents do not mention official office working hours.",
+    "answerable": false
+  },
+  {
+    "id": "TC24",
+    "category": "unanswerable",
+    "question": "What is the reimbursement limit for home internet setup?",
+    "expected_answer": "The provided documents do not mention home internet reimbursement.",
+    "answerable": false
+  },
+  {
+    "id": "TC25",
+    "category": "unanswerable",
+    "question": "What is the notice period for resignation?",
+    "expected_answer": "The provided documents do not mention the resignation notice period.",
+    "answerable": false
+  }
+]
