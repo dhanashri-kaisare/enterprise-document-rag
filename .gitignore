@@ -3,5 +3,4 @@
 __pycache__/  
 .pytest_cache/ 
 
-data/*.pdf
-data/*.txt
+data/
