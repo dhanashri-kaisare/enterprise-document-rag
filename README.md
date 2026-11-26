@@ -1,4 +1,13 @@
-# Enterprise Document Retrieval & Context Validation System
+---
+title: Enterprise Document Rag
+emoji: 📄
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 5.49.1
+app_file: app.py
+pinned: false
+---# Enterprise Document Retrieval & Context Validation System
 
 An end-to-end Retrieval-Augmented Generation (RAG) backend built with **FastAPI**, **LangChain**, **FAISS**, **Hugging Face embeddings**, and **Groq (`openai/gpt-oss-20b`)**, designed to answer enterprise policy questions strictly from uploaded documents while preventing hallucinations.
 
